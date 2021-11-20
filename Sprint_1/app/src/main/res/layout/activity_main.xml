@@ -58,7 +58,7 @@
     <TextView
         android:id="@+id/tittle_sites"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="54dp"
         android:layout_marginTop="20dp"
         android:text="@string/sitios"
         android:textAlignment="center"
@@ -69,7 +69,7 @@
     <ListView
         android:id="@+id/lvPlaces"
         android:layout_width="414dp"
-        android:layout_height="315dp"
+        android:layout_height="293dp"
         android:visibility="visible"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-5dp"

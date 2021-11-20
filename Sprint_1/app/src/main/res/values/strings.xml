@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Sprint_1</string>
+    <string name="app_name">Quindio App</string>
     <string name="quindio_colombia">QUINDIO, COLOMBIA!</string>
     <string name="info">Su capital es Armenia. Está ubicado en el centro-oeste del país, en la región andina, limitando al norte con Risaralda, al este con Tolima y al oeste con Valle del Cauca. Con 1845 km² es el segundo departamento menos extenso y con 306 hab/km², el tercero más densamente poblado. Pertenece al eje cafetero y a la región paisa.</string>
     <string name="temp">Temperatura 26°</string>
