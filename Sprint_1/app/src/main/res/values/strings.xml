@@ -10,4 +10,6 @@
     <string name="horario_panaca">MAR - DOM 9:00am - 6:00pm</string>
     <string name="ubicacion">UBICACIÓN:</string>
     <string name="ubicacion_panaca">Quimbaya - Quindio</string>
+    <string name="info_panaca">INFO:</string>
+    <string name="informacion_panaca">www.panaca.com.co</string>
 </resources>
