@@ -7,4 +7,9 @@
         <item name="colorAccent">@color/teal_200</item>
         <!-- Customize your theme here. -->
     </style>
+    
+    <style name="estiloCalificacion"
+           parent="android:Widget.Material.RatingBar.Indicator">
+
+    </style>
 </resources>
