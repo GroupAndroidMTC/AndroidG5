@@ -11,7 +11,7 @@ import android.widget.TextView
 import com.squareup.picasso.Picasso
 import java.text.FieldPosition
 
-class LugaresAdapter(private val lugaresList: ArrayList<Lugar>)
+class LugaresAdapter(private val lugaresList: ArrayList<LugarItem>)
     : RecyclerView.Adapter<LugaresAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent:  ViewGroup, viewType: Int): ViewHolder {
@@ -36,7 +36,7 @@ class LugaresAdapter(private val lugaresList: ArrayList<Lugar>)
         private var ratingBar: RatingBar = itemView.findViewById(R.id.score_double_view)
         private var pictureImageView: ImageView = itemView.findViewById((R.id.picture_image_view))
 
-        fun bind(lugar: Lugar){
+        fun bind(lugar: LugarItem){
             nameTextView.text = lugar.nombre
             descriptionTextView.text = lugar.description
             ratingBar.rating = lugar.calificacion.toFloat()

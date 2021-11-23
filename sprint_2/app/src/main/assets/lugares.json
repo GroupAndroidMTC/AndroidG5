@@ -1,0 +1,36 @@
+[
+  {
+    "nombre" : "Panaca",
+    "description" : "Parque temático agropecuario",
+    "calificacion" : 3.5,
+    "urlPicture" :  "https://i.imgur.com/wlvq2tz.jpg"
+  },
+
+  {
+    "nombre" : "Cocora",
+    "description" : "Maravilloso paisaje natural",
+    "calificacion" : 5.0,
+    "urlPicture" :  "https://i.imgur.com/CcabiWl.jpg"
+  },
+
+  {
+    "nombre" : "Parque del café",
+    "description" : "Parque temático del café",
+    "calificacion" : 4.3,
+    "urlPicture" :  "https://i.imgur.com/Sc6SyRE.jpg"
+  },
+
+  {
+    "nombre" : "Salento",
+    "description" : "Ciudad andina de colombia",
+    "calificacion" : 5.0,
+    "urlPicture" :  "https://i.imgur.com/LUw2rII.jpg"
+  },
+
+  {
+    "nombre" : "Recuca",
+    "description" : "Recorrido a la cultura cafetera",
+    "calificacion" : 4.0,
+    "urlPicture" :  "https://i.imgur.com/kXwi5lL.jpg"
+  }
+]
