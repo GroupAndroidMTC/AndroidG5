@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ListadoDeLugares">
         <activity
-            android:name=".ListLugaresActivity"
+            android:name=".list.ListLugaresActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".detalle.MainActivity"
             android:exported="true">
         </activity>
     </application>

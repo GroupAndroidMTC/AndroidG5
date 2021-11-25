@@ -1,10 +1,12 @@
-package com.example.listadodelugares
+package com.example.listadodelugares.list
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
+import com.example.listadodelugares.R
+import com.example.listadodelugares.model.Lugar
+import com.example.listadodelugares.model.LugarItem
 import com.google.gson.Gson
 
 class ListLugaresActivity : AppCompatActivity() {

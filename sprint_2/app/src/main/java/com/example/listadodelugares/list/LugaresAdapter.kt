@@ -1,15 +1,15 @@
-package com.example.listadodelugares
+package com.example.listadodelugares.list
 
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.ViewParent
 import android.widget.ImageView
 import android.widget.RatingBar
 import android.widget.TextView
+import com.example.listadodelugares.R
+import com.example.listadodelugares.model.LugarItem
 import com.squareup.picasso.Picasso
-import java.text.FieldPosition
 
 class LugaresAdapter(private val lugaresList: ArrayList<LugarItem>)
     : RecyclerView.Adapter<LugaresAdapter.ViewHolder>() {
@@ -20,7 +20,7 @@ class LugaresAdapter(private val lugaresList: ArrayList<LugarItem>)
 
     }
 
-    override fun onBindViewHolder(holder:  ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val lugar = lugaresList[position]
         holder.bind(lugar)
 

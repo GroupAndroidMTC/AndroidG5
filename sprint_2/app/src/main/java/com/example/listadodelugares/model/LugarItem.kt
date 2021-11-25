@@ -1,4 +1,4 @@
-package com.example.listadodelugares
+package com.example.listadodelugares.model
 
 
 import com.google.gson.annotations.SerializedName
