@@ -14,4 +14,15 @@
     <string name="web">https://panaca.com.co</string>
     <string name="titulo">Panaca</string>
     <string name="descripcion">Parque temático agropecuario</string>
+
+    <!-- Sync Preferences -->
+    <string name="notification">Notificaciones</string>
+    <string name="sound_notification">Activar Sonido Notificaciones</string>
+    <string name="title_activity_botton">BottonActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_list">Lista</string>
+    <string name="title_detail">Detalle</string>
+    <string name="title_preference">Notificaciones</string>
 </resources>
