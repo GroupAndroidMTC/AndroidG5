@@ -3,9 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/AndroidG5/sprint_2/app/src/main/res/layout/activity_list_lugares.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/AndroidG5/sprint_2/app/src/main/res/layout/activity_list_lugares.xml" value="0.2" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/AndroidG5/sprint_2/app/src/main/res/layout/activity_main.xml" value="0.13903985507246377" />
-        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/AndroidG5/sprint_2/app/src/main/res/layout/card_view_lugar_item.xml" value="0.33" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/AndroidG5/sprint_2/app/src/main/res/layout/card_view_lugar_item.xml" value="0.25" />
       </map>
     </option>
   </component>

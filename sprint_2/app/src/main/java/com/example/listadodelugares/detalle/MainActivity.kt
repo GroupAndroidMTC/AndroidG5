@@ -1,7 +1,8 @@
-package com.example.listadodelugares
+package com.example.listadodelugares.detalle
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.listadodelugares.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

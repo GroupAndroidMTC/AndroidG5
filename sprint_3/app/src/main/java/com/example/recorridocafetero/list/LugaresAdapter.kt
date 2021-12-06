@@ -1,27 +1,30 @@
-package com.example.listadodelugares
+package com.example.recorridocafetero.list
 
-import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.ViewParent
 import android.widget.ImageView
 import android.widget.RatingBar
 import android.widget.TextView
+import androidx.recyclerview.widget.RecyclerView
+import com.example.recorridocafetero.R
+import com.example.recorridocafetero.model.LugarItem
 import com.squareup.picasso.Picasso
-import java.text.FieldPosition
 
-class LugaresAdapter(private val lugaresList: ArrayList<LugarItem>)
-    : RecyclerView.Adapter<LugaresAdapter.ViewHolder>() {
+class LugaresAdapter(
+    private val lugaresList: ArrayList<LugarItem>,
+    private val onItemClicked: (LugarItem) -> Unit
+) : RecyclerView.Adapter<LugaresAdapter.LugarViewHolder>() {
 
-    override fun onCreateViewHolder(parent:  ViewGroup, viewType: Int): ViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.card_view_lugar_item, parent, false)
-        return  ViewHolder(view)
+    override fun onCreateViewHolder(parent:  ViewGroup, viewType: Int): LugarViewHolder {
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.card_view_item, parent, false)
+        return  LugarViewHolder(view)
 
     }
 
-    override fun onBindViewHolder(holder:  ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: LugarViewHolder, position: Int) {
         val lugar = lugaresList[position]
+        holder.itemView.setOnClickListener { onItemClicked(lugaresList[position]) }
         holder.bind(lugar)
 
     }
@@ -29,7 +32,7 @@ class LugaresAdapter(private val lugaresList: ArrayList<LugarItem>)
     override fun getItemCount(): Int = lugaresList.size
 
 
-    class ViewHolder(view: View): RecyclerView.ViewHolder(view){
+    class LugarViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
 
         private var nameTextView: TextView = itemView.findViewById(R.id.name_text_view)
         private var descriptionTextView : TextView = itemView.findViewById(R.id.description_text_view)
