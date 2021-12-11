@@ -9,7 +9,10 @@
     "paginaWeb" : "https://panaca.com.co/",
     "calificacion" : 3.5,
     "urlPicture" :  "https://i.imgur.com/wlvq2tz.jpg",
-    "urlDetalle": "https://i.imgur.com/IjTFKEM.jpg"
+    "urlDetalle": "https://i.imgur.com/IjTFKEM.jpg",
+    "latitud":  4.6083662,
+    "longitud": -75.829716,
+    "zoom": "15F"
   },
 
   {
@@ -22,7 +25,10 @@
     "paginaWeb" : "www.valledelcocora.com.co",
     "calificacion" : 5.0,
     "urlPicture" :  "https://i.imgur.com/CcabiWl.jpg",
-    "urlDetalle" : "https://i.imgur.com/WJjO1TA.jpg"
+    "urlDetalle" : "https://i.imgur.com/WJjO1TA.jpg",
+    "latitud":  4.6377173,
+    "longitud": -75.4912587,
+    "zoom": "15F"
   },
 
   {
@@ -35,7 +41,10 @@
     "paginaWeb" : "https://parquedelcafe.co/",
     "calificacion" : 4.3,
     "urlPicture" :  "https://i.imgur.com/Sc6SyRE.jpg",
-    "urlDetalle" :  "https://i.imgur.com/LUjR6lF.jpg"
+    "urlDetalle" :  "https://i.imgur.com/LUjR6lF.jpg",
+    "latitud":  4.5402852,
+    "longitud": -75.7728368,
+    "zoom": "15F"
   },
 
   {
@@ -48,7 +57,10 @@
     "paginaWeb" : "https://www.salento-quindio.gov.co/",
     "calificacion" : 5.0,
     "urlPicture" :  "https://i.imgur.com/LUw2rII.jpg",
-    "urlDetalle" : "https://i.imgur.com/hSl2HEt.jpg"
+    "urlDetalle" : "https://i.imgur.com/hSl2HEt.jpg",
+    "latitud":  4.6373867,
+    "longitud": -75.5751544,
+    "zoom": "15F"
   },
 
   {
@@ -61,6 +73,9 @@
     "paginaWeb" : "https://www.recuca.com/",
     "calificacion" : 4.0,
     "urlPicture" :  "https://i.imgur.com/kXwi5lL.jpg",
-    "urlDetalle" : "https://i.imgur.com/A8A0RCQ.jpg"
+    "urlDetalle" : "https://i.imgur.com/A8A0RCQ.jpg",
+    "latitud":  4.4326908,
+    "longitud": -75.7356568,
+    "zoom": "15F"
   }
 ]

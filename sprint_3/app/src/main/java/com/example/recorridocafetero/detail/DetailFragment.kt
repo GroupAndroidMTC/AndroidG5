@@ -1,5 +1,7 @@
 package com.example.recorridocafetero.detail
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -34,9 +36,18 @@ class DetailFragment : Fragment() {
             webTextView.text = lugar.paginaWeb
             com.squareup.picasso.Picasso.get().load(lugar.urlDetalle).into(photoImageView)
 
+            mapButton.setOnClickListener {
+                launchMap(lugar.latitud, lugar.longitud)
+            }
 
         }
     }
 
-
+    private fun launchMap(lat: Double, lon: Double) {
+        val geo = "geo: $lat, $lon"
+        val gmmIntentUri = Uri.parse(geo)
+        val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+        mapIntent.setPackage("com.google.android.apps.maps")
+        startActivity(mapIntent)
+    }
 }
