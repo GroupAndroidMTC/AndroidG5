@@ -1,4 +1,4 @@
- package com.example.recorridocafetero.main
+ package com.example.recorridocafetero.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

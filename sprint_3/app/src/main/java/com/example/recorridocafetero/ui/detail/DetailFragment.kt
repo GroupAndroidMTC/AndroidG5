@@ -1,4 +1,4 @@
-package com.example.recorridocafetero.detail
+package com.example.recorridocafetero.ui.detail
 
 import android.content.Intent
 import android.net.Uri

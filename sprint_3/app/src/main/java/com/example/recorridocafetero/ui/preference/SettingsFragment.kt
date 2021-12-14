@@ -1,4 +1,4 @@
-package com.example.recorridocafetero.preference
+package com.example.recorridocafetero.ui.preference
 
 import android.os.Bundle
 import androidx.preference.PreferenceFragmentCompat

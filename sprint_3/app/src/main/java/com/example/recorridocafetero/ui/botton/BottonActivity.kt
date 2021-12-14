@@ -1,4 +1,4 @@
-package com.example.recorridocafetero.botton
+package com.example.recorridocafetero.ui.botton
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView

@@ -1,10 +1,11 @@
-package com.example.recorridocafetero.list
+package com.example.recorridocafetero.ui.list
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.RatingBar
+import android.widget.RemoteViews
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.recorridocafetero.R
@@ -30,6 +31,13 @@ class LugaresAdapter(
     }
 
     override fun getItemCount(): Int = lugaresList.size
+
+    fun appendItems(newItems:ArrayList<LugarItem>) {
+        lugaresList.clear()
+        lugaresList.addAll(newItems)
+        notifyDataSetChanged()
+
+    }
 
 
     class LugarViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
