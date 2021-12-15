@@ -18,7 +18,7 @@
     <!-- Sync Preferences -->
     <string name="notification">Notificaciones</string>
     <string name="sound_notification">Activar Sonido Notificaciones</string>
-    <string name="title_activity_botton">RecorridoCafetero</string>
+    <string name="title_activity_botton">Recorrido Cafetero</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
