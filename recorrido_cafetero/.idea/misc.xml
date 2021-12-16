@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/AndroidG5/recorrido_cafetero/app/src/main/res/layout/activity_botton.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/AndroidG5/recorrido_cafetero/app/src/main/res/layout/card_view_item.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/AndroidG5/recorrido_cafetero/app/src/main/res/layout/fragment_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/AndroidG5/recorrido_cafetero/app/src/main/res/layout/fragment_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/AndroidG5/recorrido_cafetero/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/AndroidG5/recorrido_cafetero/app/src/main/res/xml/root_preferences.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/AndroidG5/sprint_3/app/src/main/res/layout/activity_botton.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/AndroidG5/sprint_3/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/AndroidG5/sprint_3/app/src/main/res/layout/card_view_item.xml" value="0.25" />
