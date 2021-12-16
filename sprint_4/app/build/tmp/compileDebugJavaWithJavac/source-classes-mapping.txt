@@ -1,0 +1,12 @@
+com/example/recorridocafetero/databinding/CardViewItemBinding.java
+ com.example.recorridocafetero.databinding.CardViewItemBinding
+com/example/recorridocafetero/databinding/FragmentListBinding.java
+ com.example.recorridocafetero.databinding.FragmentListBinding
+com/example/recorridocafetero/BuildConfig.java
+ com.example.recorridocafetero.BuildConfig
+com/example/recorridocafetero/databinding/FragmentDetailBinding.java
+ com.example.recorridocafetero.databinding.FragmentDetailBinding
+com/example/recorridocafetero/databinding/ActivityMainBinding.java
+ com.example.recorridocafetero.databinding.ActivityMainBinding
+com/example/recorridocafetero/databinding/ActivityBottonBinding.java
+ com.example.recorridocafetero.databinding.ActivityBottonBinding
